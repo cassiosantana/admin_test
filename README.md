@@ -1,24 +1,21 @@
-# README
+# Admin Test
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Este repositório foi criado para fins de testes e para explorar as funcionalidades da gem ActiveAdmin no Ruby on Rails.
 
-Things you may want to cover:
+ActiveAdmin é uma framework para criar interfaces de administração com estilo usando Ruby on Rails. Ele pode ajudar a gerar páginas administrativas com pouco esforço, deixando mais tempo para se concentrar nos principais aspectos da aplicação.
 
-* Ruby version
+## Algumas das suas funcionalidades do ActiveAdmin
 
-* System dependencies
+* **Dashboards Personalizáveis**: Você pode criar um painel personalizado com a informação que é importante para você.
 
-* Configuration
+* **CRUD**: ActiveAdmin fornece estas operações de forma simplificada.
 
-* Database creation
+* **Personalização de Páginas**: Para personalizar a página de um recurso específico, você pode utilizar métodos como `index`, `form`, `filter` e `show` dentro do bloco de registro de um recurso.
 
-* Database initialization
+## Sintaxe Simples
 
-* How to run the test suite
+Um dos destaques do ActiveAdmin é a sua sintaxe simples e direta. Isso facilita a leitura e a escrita de código, permitindo que os iniciantes possam começar a usar rapidamente.
 
-* Services (job queues, cache servers, search engines, etc.)
+## Mais Informações
 
-* Deployment instructions
-
-* ...
+Para obter mais detalhes sobre o uso, consulte a [documentação oficial do ActiveAdmin](https://activeadmin.info/documentation.html). Lá você encontrará mais informações.
