@@ -6,6 +6,8 @@ ActiveAdmin.register Post do
     column :id
     column "My Custom Title", :title
     column :content
-    actions
+    actions dropdown: true do |post|
+      item "Preview", admin_post_path(post)
+    end
   end
 end
