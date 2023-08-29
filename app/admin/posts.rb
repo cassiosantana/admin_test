@@ -4,7 +4,7 @@ ActiveAdmin.register Post do
   index do
     selectable_column
     column :id
-    column :title
+    column "My Custom Title", :title
     column :content
     actions
   end
